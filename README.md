@@ -5,7 +5,7 @@
 ![Vite](https://img.shields.io/badge/Vite-4.4.5-purple)
 ![License](https://img.shields.io/badge/License-MIT-orange)
 
-Site profissional desenvolvido para a **Vitta Terapias**, um negócio de massagens terapêuticas e fisioterapia. O site oferece uma experiência completa para clientes, com agendamento integrado via WhatsApp, catálogo de serviços, depoimentos, localização interativa e muito mais.
+Site profissional desenvolvido para a **Vitta Terapias**, um negócio de massagens terapêuticas. O site oferece uma experiência completa para clientes, com agendamento integrado via WhatsApp, catálogo de serviços, depoimentos, localização interativa e muito mais.
 
 🔗 **Site em produção:** [vitta-terapias.vercel.app](https://vitta-terapias.vercel.app)
 
@@ -40,7 +40,7 @@ Site profissional desenvolvido para a **Vitta Terapias**, um negócio de massage
 | **Instagram Embed** | Posts incorporados do Instagram |
 
 ### 📄 Licença
-Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
+Este projeto está sob a licença MIT.
 
 ### 👨‍💻 Desenvolvedor
 Bruno Bigelli - Desenvolvedor Full Stack
