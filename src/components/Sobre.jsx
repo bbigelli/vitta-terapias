@@ -1,4 +1,5 @@
-import { Award, Users, Clock, ThumbsUp } from 'lucide-react'
+import React from 'react'
+import { Award, Users, ThumbsUp } from 'lucide-react'
 import styles from './Sobre.module.css'
 
 const Sobre = () => {
@@ -11,26 +12,26 @@ const Sobre = () => {
           <div className={styles.image}>
             <img 
               src="/imagens/profissional.png" 
-              alt="Profissional de massagem terapêutica"
+              alt="Profissional de massagem e fisioterapia"
               className={styles.profileImage}
             />
           </div>
           
           <div className={styles.content}>
             <h3 className={styles.subtitle}>
-              Mais de 2 anos cuidando do bem-estar e da saúde dos meus pacientes
+              Mais de 2 anos cuidando do seu bem-estar com dedicação e carinho
             </h3>
             <p className={styles.text}>
-              Sou especialista em massoterapia, com formação em técnicas 
-              integrativas e abordagem humanizada. Acredito que cada corpo é único e 
-              merece um cuidado personalizado.
+              Sou especialista em massoterapia, com formação em técnicas integrativas e abordagem humanizada. 
+              Acredito que cada corpo é único e merece um cuidado personalizado.
             </p>
             <p className={styles.text}>
-              Minha missão é ajudar você a encontrar equilíbrio, aliviar dores e 
-              promover qualidade de vida através de técnicas manuais e acolhimento.
+              Minha missão é ajudar você a encontrar equilíbrio, aliviar dores e promover 
+              qualidade de vida através de técnicas manuais e acolhimento.
             </p>
             <p className={styles.text}>
-              O objetivo não é só aliviar por algumas horas, mas promover bem-estar real, qualidade de vida e mais consciência comporal.
+              O objetivo não é apenas aliviar por algumas horas, mas promover bem-estar, 
+              qualidade de vida e mais consciência para o seu dia a dia.
             </p>
             
             <div className={styles.stats}>
@@ -61,19 +62,19 @@ const Sobre = () => {
         
         <div className={styles.qualities}>
           <div className={styles.qualityCard}>
-            <Clock size={24} />
-            <h4>Horário flexível</h4>
-            <p>Atendimento de segunda a sábado, com horários especiais</p>
-          </div>
-          <div className={styles.qualityCard}>
             <Award size={24} />
-            <h4>Certificações</h4>
-            <p>Formada nas melhores técnicas nacionais e internacionais</p>
+            <h4>Formação especializada</h4>
+            <p>Formada em técnicas integrativas e massoterapia</p>
           </div>
           <div className={styles.qualityCard}>
             <Users size={24} />
             <h4>Atendimento humanizado</h4>
-            <p>Escuta ativa e tratamento personalizado para cada paciente</p>
+            <p>Escuta ativa e tratamento personalizado</p>
+          </div>
+          <div className={styles.qualityCard}>
+            <ThumbsUp size={24} />
+            <h4>Resultados duradouros</h4>
+            <p>Bem-estar que vai além da sessão</p>
           </div>
         </div>
       </div>
