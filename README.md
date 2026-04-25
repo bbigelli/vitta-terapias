@@ -1,4 +1,4 @@
-# 💆‍♀️ Vitta Terapias - Site Profissional para Massagens e Fisioterapia
+# 💆‍♀️ Vitta Terapias - Site Profissional para Massagens
 
 ![Vitta Terapias](https://img.shields.io/badge/Status-Online-green)
 ![React](https://img.shields.io/badge/React-18.2.0-blue)
