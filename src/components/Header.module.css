@@ -1,0 +1,148 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  z-index: 1000;
+  transition: all 0.3s ease;
+}
+
+.header.scrolled {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  background-color: rgba(255, 255, 255, 0.98);
+  backdrop-filter: blur(10px);
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.logoImage {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  border-radius: 12px;
+}
+
+.logoTextContainer {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.2;
+}
+
+.logoText {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #6b4c3b;
+  letter-spacing: -0.3px;
+}
+
+.logoSub {
+  font-size: 0.7rem;
+  color: #a0887a;
+  letter-spacing: 0.5px;
+}
+
+@media (max-width: 768px) {
+  .logoImage {
+    width: 35px;
+    height: 35px;
+  }
+  
+  .logoText {
+    font-size: 1rem;
+  }
+  
+  .logoSub {
+    font-size: 0.6rem;
+  }
+}
+
+.desktopMenu {
+  display: flex;
+  gap: 2rem;
+}
+
+.navLink {
+  text-decoration: none;
+  color: #3e2a2a;
+  font-weight: 500;
+  transition: color 0.3s ease;
+  position: relative;
+}
+
+.navLink:hover {
+  color: #8b6b5a;
+}
+
+.navLink::after {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background-color: #8b6b5a;
+  transition: width 0.3s ease;
+}
+
+.navLink:hover::after {
+  width: 100%;
+}
+
+.mobileButton {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #3e2a2a;
+}
+
+.mobileMenu {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  padding: 1rem;
+  gap: 1rem;
+  border-top: 1px solid #f0e4d8;
+}
+
+.mobileNavLink {
+  text-decoration: none;
+  color: #3e2a2a;
+  padding: 0.5rem;
+  transition: color 0.3s ease;
+}
+
+.mobileNavLink:hover {
+  color: #8b6b5a;
+}
+
+@media (max-width: 768px) {
+  .desktopMenu {
+    display: none;
+  }
+  
+  .mobileButton {
+    display: block;
+  }
+  
+  .container {
+    padding: 0 1rem;
+  }
+}

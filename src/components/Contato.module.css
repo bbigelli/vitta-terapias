@@ -1,0 +1,162 @@
+.contato {
+  padding: 5rem 0;
+  background-color: #fff;
+}
+
+.title {
+  font-size: 2.5rem;
+  text-align: center;
+  color: #6b4c3b;
+  margin-bottom: 1rem;
+}
+
+.subtitle {
+  text-align: center;
+  color: #8b7a6e;
+  margin-bottom: 3rem;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+}
+
+.infoCard {
+  background: linear-gradient(135deg, #fdf7f0, #fff);
+  padding: 2rem;
+  border-radius: 20px;
+  border: 1px solid #f0e4d8;
+}
+
+.infoCard h3 {
+  color: #6b4c3b;
+  margin-bottom: 1.5rem;
+  font-size: 1.3rem;
+}
+
+.infoItem {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  color: #6b4c3b;
+}
+
+.infoItem strong {
+  display: block;
+  margin-bottom: 0.25rem;
+  color: #3e2a2a;
+}
+
+.infoItem p {
+  color: #8b7a6e;
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+.whatsappButton {
+  width: 100%;
+  padding: 1rem;
+  background-color: #25D366;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin: 1.5rem 0;
+  transition: all 0.3s ease;
+}
+
+.whatsappButton:hover {
+  background-color: #1da15a;
+  transform: translateY(-2px);
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.social a {
+  color: #6b4c3b;
+  transition: color 0.3s ease;
+}
+
+.social a:hover {
+  color: #25D366;
+}
+
+.form {
+  background-color: #fefaf5;
+  padding: 2rem;
+  border-radius: 20px;
+  border: 1px solid #f0e4d8;
+}
+
+.formGroup {
+  margin-bottom: 1rem;
+}
+
+.formGroup input,
+.formGroup textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #e0d4cc;
+  border-radius: 8px;
+  font-family: inherit;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+.formGroup input:focus,
+.formGroup textarea:focus {
+  outline: none;
+  border-color: #8b6b5a;
+}
+
+.submitButton {
+  width: 100%;
+  padding: 1rem;
+  background-color: #25D366;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  transition: all 0.3s ease;
+}
+
+.submitButton:hover {
+  background-color: #1da15a;
+  transform: translateY(-2px);
+}
+
+@media (max-width: 968px) {
+  .container {
+    gap: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 2rem;
+  }
+  
+  .container {
+    grid-template-columns: 1fr;
+  }
+  
+  .infoCard,
+  .form {
+    padding: 1.5rem;
+  }
+}

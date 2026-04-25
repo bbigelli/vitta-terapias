@@ -1,0 +1,8 @@
+.app {
+  overflow-x: hidden;
+}
+
+/* Scroll suave para toda a aplicação */
+html {
+  scroll-behavior: smooth;
+}
