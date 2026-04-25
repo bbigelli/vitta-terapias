@@ -1,16 +1,55 @@
-# React + Vite
+# 💆‍♀️ Vitta Terapias - Site Profissional para Massagens e Fisioterapia
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Vitta Terapias](https://img.shields.io/badge/Status-Online-green)
+![React](https://img.shields.io/badge/React-18.2.0-blue)
+![Vite](https://img.shields.io/badge/Vite-4.4.5-purple)
+![License](https://img.shields.io/badge/License-MIT-orange)
 
-Currently, two official plugins are available:
+Site profissional desenvolvido para a **Vitta Terapias**, um negócio de massagens terapêuticas e fisioterapia. O site oferece uma experiência completa para clientes, com agendamento integrado via WhatsApp, catálogo de serviços, depoimentos, localização interativa e muito mais.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+🔗 **Site em produção:** [vitta-terapias.vercel.app](https://vitta-terapias.vercel.app)
 
-## React Compiler
+📱 **Instagram:** [@_vitta.terapias](https://www.instagram.com/_vitta.terapias/)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## ✨ Funcionalidades
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- ✅ **Agendamento via WhatsApp** - Botões estratégicos que abrem conversa direta com mensagem personalizada para cada serviço
+- ✅ **Catálogo de serviços** - Cards interativos com filtros (todos/destaque)
+- ✅ **Mapa interativo** - Google Maps Embed com localização exata do consultório
+- ✅ **Feed do Instagram** - Posts incorporados com carrossel
+- ✅ **Depoimentos** - Carrossel com avaliações de clientes reais
+- ✅ **FAQ** - Accordion interativo com perguntas frequentes
+- ✅ **Formulário de contato** - Envio via WhatsApp
+- ✅ **Design responsivo** - Funciona perfeitamente em desktop, tablet e mobile
+- ✅ **Botão flutuante WhatsApp** - Disponível em todas as páginas
+- ✅ **Header fixo** - Navegação sempre visível ao rolar a página
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+| Tecnologia | Descrição |
+|------------|-----------|
+| **React 18** | Biblioteca para construção da interface |
+| **Vite** | Build tool rápida e moderna |
+| **CSS Modules** | Estilização escopada e organizada |
+| **Lucide React** | Ícones modernos e leves |
+| **Google Maps Embed** | Mapa interativo de localização |
+| **Instagram Embed** | Posts incorporados do Instagram |
+
+### 📄 Licença
+Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
+
+### 👨‍💻 Desenvolvedor
+Bruno Bigelli - Desenvolvedor Full Stack
+
+📞 Suporte
+Para dúvidas, sugestões ou orçamentos:
+
+📧 Email: bbigelli@hotmail.com
+
+📱 WhatsApp: (11) 95230-2900
+
+💼 LinkedIn: Bruno Bigelli
